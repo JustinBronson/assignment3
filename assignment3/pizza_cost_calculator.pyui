@@ -1,0 +1,210 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {250, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label1",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "87C3C301-F124-4266-936F-CAC9BEE2AB47",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Which size would you like?",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{264, 6}, {160, 30}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "uuid" : "44EF5258-629C-442B-8A6C-21411E4A7E9D",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "name" : "size_control",
+          "class" : "SegmentedControl",
+          "segments" : "Large|ExtraLarge",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 62}, {250, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label2",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "C62FE409-C2F0-45D9-A158-E10BFC304355",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "How many toppings with that?",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{264, 62}, {160, 30}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "uuid" : "FB78EF86-17AE-4878-9BA2-7D51D4B4209B",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "name" : "toppings_control",
+          "class" : "SegmentedControl",
+          "segments" : "1|2|3|4",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{264, 111}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "0CCCB516-769B-4FEB-A347-8FB54E818429",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 156}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "subtotal_answer",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "98260253-A9D5-447C-AE1F-B52DAEAD1A07",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 196}, {90, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "hst_label",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "4A0E14AE-6509-4A07-B527-3E6D18812E0D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "HST:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 156}, {90, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "subtotal_label",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "67C6B0AE-7669-43EB-B58D-028042714620",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Subtotal:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 236}, {90, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "total_label",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "A0A32F24-CD21-45A9-A3D4-ECD242F6512D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Total:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 196}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "hst_answer",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "71952119-7747-4EB5-9FB0-F7039C281BA8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 236}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "total_answer",
+          "frame" : "{{218, 156}, {150, 32}}",
+          "uuid" : "3113DF3C-4300-4621-A51F-5B2E8A3BC818",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {588, 349}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
